@@ -13,6 +13,6 @@
       "scripts": ["background.js"]
     },
     "permissions": [
-        "activeTab", "\u003Call_urls>", "http://*/*", "https://*/*"
+        "activeTab"
      ]
 }
