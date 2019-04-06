@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Open Translate", 
+    "description": "Open new tab for translate.",
+    "version": "1.0",
+    "author": "Ahmad Rosid",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Open Translate"
+    },
+    "background":{
+      "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab", "\u003Call_urls>", "http://*/*", "https://*/*"
+     ]
+}

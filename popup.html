@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Open Translate</title>
+    <style>
+    .wrapper {
+        width: 300px;
+        padding: 0 10px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-weight: 100;
+    }
+
+    .form-wrapper{
+        padding: 5px 0;
+    }
+
+    .input-word {
+        width: 100%;
+        padding: 5px;
+        border-radius: .25rem;
+        border-color: #6cb2eb;
+    }
+
+    .btn-submit {
+        margin: 10px 0;
+        padding: .7rem 1rem;
+        font-weight: 700;
+        background: #3490dc;
+        color: white;
+        border: none;
+        border-radius: .25rem;
+        text-decoration: none;
+    }
+    .py-2 {
+        padding: .7rem 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Translate your word</h1>
+        <div class="form-wrapper">
+            <div class="py-2">
+                <textarea class="input-word"  id="words" cols="30" rows="5" placeholder="Your words to translate"></textarea>
+            </div>
+            <div class="py-2">
+                <a id="link" href="https://translate.google.com/#en/id/" class="btn-submit" target="_blank">Translate</a>
+            </div>
+        </div>
+    </div>
+    <script  type="text/javascript" src="popup.js"></script>
+</body>
+</html>
